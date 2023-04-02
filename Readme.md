@@ -1,6 +1,8 @@
+# Repositório de atividades do P5
 
-https://user-images.githubusercontent.com/4747652/228835366-3b4b9b47-131f-4165-8d08-3efa23a138d7.mp4
+## Conceitos iniciais
 
-[Link Vídeo](https://user-images.githubusercontent.com/4747652/228835366-3b4b9b47-131f-4165-8d08-3efa23a138d7.mp4)
-
-![image](https://user-images.githubusercontent.com/4747652/228835366-3b4b9b47-131f-4165-8d08-3efa23a138d7.mp4)
+![_](.thumbs/000.jpg) | [@000 Quadradinhos](base/000/Readme.md#quadradinhos)
+![_](.thumbs/001.jpg) | [@001 Mosaico](base/001/Readme.md#mosaico)
+![_](.thumbs/002.jpg) | [@002 RedGreen](base/002/Readme.md#redgreen)
+![_](.thumbs/003.jpg) | [@003 Quadrantes](base/003/Readme.md#quadrantes)
