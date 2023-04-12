@@ -4,6 +4,8 @@
 
 ## Intro
 
+Vídeo de explicação da atividade: [https://youtu.be/CcnXfbBe6vc](https://youtu.be/CcnXfbBe6vc)
+
 Você pode criar uma função em JavaScript para calcular a distância entre dois pontos usando a fórmula da distância euclidiana. A fórmula é dada por:
 
 ![distancia](distancia.png)
