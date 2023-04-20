@@ -6,6 +6,8 @@ Escreva uma função que faça um desenho qualquer dentro de um quadrado na posi
 
 Aqui está um vídeo explicando como achar os pontos de forma parametrizada: [https://youtu.be/cNRswXtG6AY](https://youtu.be/cNRswXtG6AY)
 
+## Exemplo do ratinho
+
 ```js
 function setup() {
   createCanvas(600, 360);
@@ -72,4 +74,39 @@ function drawFace(x, y, w) {
   line(rightEyeX - desl, whiskerY - delta, rightEyeX + tam, whiskerY - delta);
 }
 
+```
+
+## Exemplo do sorriso
+
+```js
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+}
+
+function desenho(x, y, t) {
+  square(x, y, t);
+  let olhoxa = x + 0.27 * t;
+  let olhoya = y + 0.27 * t;
+  let olhoxb = x + 0.42 * t;
+  let olhoyb = y + 0.20 * t;
+  
+  circle(olhoxa, olhoya, 0.10 * t);
+  circle(olhoxb, olhoyb, 0.15 * t);
+  
+  let sxa = x + 0.07 * t;
+  let sya = y + 0.45 * t;
+  let sxb = x + 0.35 * t;
+  let syb = y + 0.57 * t;
+  let sxc = x + 0.65 * t;
+  let syc = y + 0.25 * t;
+  bezier(sxa, sya, sxb, syb, sxb, syb, sxc, syc);
+  
+}
+
+function draw() {
+  desenho(10, 10, 100);
+  desenho(100, 200, 200);
+
+}
 ```
