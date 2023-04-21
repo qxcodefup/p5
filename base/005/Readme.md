@@ -4,7 +4,7 @@
 
 Escreva uma função que faça um desenho qualquer dentro de um quadrado na posição x, y de tamanho w. Você pode utilizar o meu ratinho como exemplo. Pode fazer um desenho diferente e mais simples, mas deve ser dentro de um quadrado e utilizar os parâmetros x, y e w.
 
-Aqui está um vídeo explicando como achar os pontos de forma parametrizada: [https://youtu.be/cNRswXtG6AY](https://youtu.be/cNRswXtG6AY)
+Aqui está um vídeo explicando como achar os pontos de forma parametrizada: [https://youtu.be/zLpGQPhnQW0](https://youtu.be/zLpGQPhnQW0)
 
 ## Exemplo do ratinho
 
