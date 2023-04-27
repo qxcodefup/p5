@@ -12,3 +12,4 @@
 ![_](.thumbs/005.jpg) | [@005 Ratinho](base/005/Readme.md#ratinho)
 ![_](.thumbs/006.jpg) | [@006 Distância](base/006/Readme.md#distância)
 ![_](.thumbs/007.jpg) | [@007 Granulado](base/007/Readme.md#granulado)
+![_](.thumbs/008.jpg) | [@008 Limitar](base/008/Readme.md#limitar)
