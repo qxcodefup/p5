@@ -1,5 +1,7 @@
 # Floresta
 
+![_](cover.jpg)
+
 Vamos utilizar os conceitos das atividades Mosaico, Limitar e Prisão para fazer uma floresta.
 
 Leia atentamente as instruções e faça o que se pede.
