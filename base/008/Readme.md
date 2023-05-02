@@ -1,6 +1,6 @@
 # Limitar
 
-![](cover.jpg)
+[_](https://user-images.githubusercontent.com/4747652/235663071-2b0c763e-358f-4f7b-92c9-be11b496b981.mp4)
 
 Faça uma função que tenha o seguinte comportamento:
 
