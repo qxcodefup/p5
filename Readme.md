@@ -20,10 +20,12 @@
 \________________________ | \_______________________________________________
 ------------------------- | -----------------------
 ![_](.thumbs/010.jpg) | [@010 Floresta](base/010/Readme.md#floresta)
+![_](.thumbs/012.jpg) | [@012 Escada](base/012/Readme.md#escada)
+![_](.thumbs/013.jpg) | [@013 Cortina](base/013/Readme.md#cortina)
+![_](.thumbs/014.jpg) | [@014 Tabuleiro](base/014/Readme.md#tabuleiro)
 
 ## Cobrinha
 
 \________________________ | \_______________________________________________
 ------------------------- | -----------------------
 ![_](.thumbs/011.jpg) | [@011 Timer](base/011/Readme.md#timer)
-
