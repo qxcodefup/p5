@@ -6,9 +6,11 @@ Faça uma função que tenha o seguinte comportamento:
 
 ```js
 function limitar(valor, minimo, maximo) {
-    // se valor for menor que minimo, retorne minimo
-    // se valor for maior que maximo, retorne maximo
-    // caso contrário, retorne valor
+    // se valor for menor que minimo
+        // retorne minimo
+    // se valor for maior que maximo
+        // retorne maximo
+    //retorne valor
 }
 ```
 
