@@ -14,6 +14,7 @@
 ![_](.thumbs/007.jpg) | [@007 Granulado](base/007/Readme.md#granulado)
 ![_](.thumbs/008.jpg) | [@008 Limitar](base/008/Readme.md#limitar)
 ![_](.thumbs/009.jpg) | [@009 Prisão](base/009/Readme.md#prisão)
+![_](.thumbs/011.jpg) | [@011 Timer](base/011/Readme.md#timer)
 
 ## Repetição
 
@@ -24,8 +25,9 @@
 ![_](.thumbs/013.jpg) | [@013 Cortina](base/013/Readme.md#cortina)
 ![_](.thumbs/014.jpg) | [@014 Tabuleiro](base/014/Readme.md#tabuleiro)
 
-## Cobrinha
-
+## Mouse
 \________________________ | \_______________________________________________
 ------------------------- | -----------------------
-![_](.thumbs/011.jpg) | [@011 Timer](base/011/Readme.md#timer)
+![_](.thumbs/016.jpg) | [@016 Clique](base/016/Readme.md#clique)
+![_](.thumbs/017.jpg) | [@017 Campo](base/017/Readme.md#campo)
+![_](.thumbs/018.jpg) | [@018 Troca](base/018/Readme.md#troca)
