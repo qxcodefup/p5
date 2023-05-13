@@ -25,9 +25,11 @@
 ![_](.thumbs/013.jpg) | [@013 Cortina](base/013/Readme.md#cortina)
 ![_](.thumbs/014.jpg) | [@014 Tabuleiro](base/014/Readme.md#tabuleiro)
 
-## Mouse
+## Mouse e Teclado
+
 \________________________ | \_______________________________________________
 ------------------------- | -----------------------
 ![_](.thumbs/016.jpg) | [@016 Clique](base/016/Readme.md#clique)
 ![_](.thumbs/017.jpg) | [@017 Campo](base/017/Readme.md#campo)
-![_](.thumbs/018.jpg) | [@018 Troca](base/018/Readme.md#troca)
+![_](.thumbs/018.jpg) | [@018 Próximo](base/018/Readme.md#próximo)
+![_](.thumbs/019.jpg) | [@019 Swap](base/019/Readme.md#swap)

@@ -1,16 +1,24 @@
-# Troca
+# Próximo
 
 [_]()
 
 ## Instruções
 
-1. Crie variáveis para guardar as posições dos pontos `a` e `b`.
-2. Desenhe um circulo de tamanho 20 nas posições `a: (30, 100)` e `b: (300, 40)`.
-3. Escreva o nome `a` no ponto `a` e o nome `b` no ponto `b` usando a função `text(texto, x, y)`.
-4. Vamos apenas utilizar o botão ESQUERDO do mouse.
-    - O primeiro clique muda a posição do ponto `a`.
-    - O segundo clique muda a posição do ponto `b`.
-    - O terceiro clique muda a posição do ponto `a` e assim por diante.
+- Crie e desenhe dois pontos `a` e `b` conforme as atividades anteriores.
+- Vamos apenas utilizar o botão ESQUERDO do mouse.
+  - O primeiro clique muda a posição do ponto `a`.
+  - O segundo clique muda a posição do ponto `b`.
+  - O terceiro clique muda a posição do ponto `a` e assim por diante.
+- Crie uma variavel global `vez` que define de quem é a vez de mudar.
+
+```js
+  let vez = "a";
+```
+
+- Na função `mousePressed()` verifique se a vez é do ponto `a`.
+  - Se for, mude a posição do ponto `a` e passe a vez para o ponto `b` usando `vez = "b"`.
+- Se não for a vez do `a`, verifique se é a vez do ponto `b`.
+  - Se for, mude a posição do ponto `b` e passe a vez para o ponto `a` usando `vez = "a"`.
 
 ## Draft
 
@@ -18,6 +26,7 @@
 let larg = 400, prof = 400;
 let ax = 30, ay = 100;
 let bx = 300, by = 40;
+let vez = "a";
 
 function setup() {
   createCanvas(larg, prof);
@@ -27,8 +36,9 @@ function draw() {
   background(255);
   //desenho os circulos e textos
 }
+
 function mousePressed() {
-  if (mouseButton == LEFT) {
+  if (vez == "a") {
   }
 }
 
