@@ -1,7 +1,9 @@
 # Fun Programming with p5.js
 
 <!-- toc -->
-
+- [02 Use point() and line()](#02-use-point-and-line)
+- [03. Create an animation, use random()](#03-create-an-animation-use-random)
+- [04. Shades of gray and colors, frameRate()](#04-shades-of-gray-and-colors-framerate)
 <!-- toc -->
 
 ## 02 Use point() and line()
@@ -42,5 +44,38 @@ function draw() {
   //random(valor) gera um número de 0 at valor
   //gera uma linha de um ponto qualquer para um ponto qualquer
   line(random(100), random(100), random(100),random(100)); 
+}
+```
+
+## 04. Shades of gray and colors, frameRate()
+
+```js
+function setup(){
+  createCanvas(100, 100);
+  // framerate(frames_por_segundo) 
+  frameRate(4);
+}
+
+function draw() {
+  // limpa a tela com uma cor aleatória
+  background(random(255), random(255), random(255));
+}
+```
+
+## 05. Light speed effect, change line colors
+
+```js
+function setup(){
+  createCanvas(100, 100);
+  // um único número representa um tom de cinza
+  background(0);
+}
+
+function draw() {
+  // muda a cor do pincel para um tom de verde
+  stroke(0, random(255), 0); // R, G, B
+
+  // do meio para qualquer lugar da tela
+  line(50, 50, random(100), random(100) );
 }
 ```
