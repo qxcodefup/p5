@@ -4,6 +4,7 @@
 - [02 Use point() and line()](#02-use-point-and-line)
 - [03. Create an animation, use random()](#03-create-an-animation-use-random)
 - [04. Shades of gray and colors, frameRate()](#04-shades-of-gray-and-colors-framerate)
+- [05. Light speed effect, change line colors](#05-light-speed-effect-change-line-colors)
 <!-- toc -->
 
 ## 02 Use point() and line()
