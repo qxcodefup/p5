@@ -6,7 +6,7 @@
 - [04. Shades of gray and colors, frameRate()](#04-shades-of-gray-and-colors-framerate)
 - [05. Light speed effect, change line colors](#05-light-speed-effect-change-line-colors)
 - [06. Animate white lines across the display](#06-animate-white-lines-across-the-display)
-- [07. Random lines with random colors](#07-random-lines-with-random-colors)
+- [07. Animate horizontal lines, use a variable](#07-animate-horizontal-lines-use-a-variable)
 <!-- toc -->
 
 ## 02 Use point() and line()
@@ -97,7 +97,7 @@ function draw() {
 }
 ```
 
-## 07. Random lines with random colors
+## 07. Animate horizontal lines, use a variable
 
 ```js
 function setup(){
@@ -112,5 +112,3 @@ function draw() {
   line(0, distance_top, 99, distance_top);
 }
 ```
-
-
