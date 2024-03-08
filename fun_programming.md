@@ -10,6 +10,7 @@
 ## 02 Use point() and line()
 
 ```js
+//função setup é chamada uma vez no início do programa
 function setup() {
   //cria uma tela de 100 por 100
   createCanvas(100, 100);
@@ -38,6 +39,7 @@ function setup() {
   createCanvas(100, 100);
 }
 
+// função draw é chamada a cada frame
 function draw() {
   // limpa a tela usando a cor do rgb
   background(255, 204, 0);
