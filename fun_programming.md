@@ -5,6 +5,8 @@
 - [03. Create an animation, use random()](#03-create-an-animation-use-random)
 - [04. Shades of gray and colors, frameRate()](#04-shades-of-gray-and-colors-framerate)
 - [05. Light speed effect, change line colors](#05-light-speed-effect-change-line-colors)
+- [06. Animate white lines across the display](#06-animate-white-lines-across-the-display)
+- [07. Random lines with random colors](#07-random-lines-with-random-colors)
 <!-- toc -->
 
 ## 02 Use point() and line()
@@ -55,8 +57,7 @@ function draw() {
 ```js
 function setup(){
   createCanvas(100, 100);
-  // framerate(frames_por_segundo) 
-  frameRate(4);
+  frameRate(4); // framerate(frames_por_segundo) 
 }
 
 function draw() {
@@ -70,8 +71,7 @@ function draw() {
 ```js
 function setup(){
   createCanvas(100, 100);
-  // um único número representa um tom de cinza
-  background(0);
+  background(0); // um único número representa um tom de cinza
 }
 
 function draw() {
@@ -79,6 +79,38 @@ function draw() {
   stroke(0, random(255), 0); // R, G, B
 
   // do meio para qualquer lugar da tela
-  line(50, 50, random(100), random(100) );
+  line(50, 50, random(100), random(100));
 }
 ```
+
+## 06. Animate white lines across the display
+
+```js
+function setup(){
+  createCanvas(100, 100);
+}
+
+function draw() {
+  background(0); //tela preta
+  stroke(255); //linha branca
+  line(0, random(100), 99, random(100));
+}
+```
+
+## 07. Random lines with random colors
+
+```js
+function setup(){
+  createCanvas(100, 100);
+}
+
+function draw() {
+  background(0);
+  stroke(255);
+  // lugar = valor
+  let distance_top = random(100); 
+  line(0, distance_top, 99, distance_top);
+}
+```
+
+
