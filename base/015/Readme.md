@@ -1,42 +1,38 @@
-# Ricochete
+# Corações
 
-Vamos fazer a bolinha andar apenas dentro dos slots e ricochetear nas paredes da tela.
+![_](cover.jpg)
 
-- 2 Pontos: Desenhar o tabuleiro de bolinhas
-- 2 Pontos: Fazer a bolinha andar e ricochetear na tela
-- 
+Vamos fazer dois corações que batem no compasso.
+
+- Faça a função parametrizada que desenha um coração dado x, y e tam.
+- Crie uma variável que controla o tamanho do coração.
+- Faça essa variável aumentar dentro da função `draw` e quando ela chegar num certo valor máximo, ela deve começar a diminuir.
+- Ao invés de pintar o background a cada frame, pinte um quadrado translúcido para criar o comportamento de fade.
 
 ## Draft
 
 ```js
-let nc = 7, nl = 4, tam = 100;
-let larg = nc * tam, prof = nl * tam;
-
-let x = 1, y = 0, dx = 1, dy = 1;
-let timer = 0, interval = 25;
+let tam = 0, dir = 3;
 
 function setup() {
-    createCanvas(larg, prof);
-    ellipseMode(CORNER);
+  createCanvas(600, 400);
+  background(0);
+  noStroke();
+}
+
+function coracao(x, y, t) {
+  
 }
 
 function draw() {
-    background(100);
-    fill("white");
-    //desenhe o tabuleiro de bolinhas
+    //pinte o fundo utilizando um rect translúcido para criar o fade
 
-    timer += 1;
-    if (timer > interval) {
-        timer = 0;
-        x += dx;
-        y += dy;
-    }
-
-    // verifique se a bolinha saiu do tabuleiro
-    // e reposicione-a
-
-    fill("pink");
-    circle(x * tam, y * tam, tam);
+    coracao(100, 100, 100 + tam);
+    coracao(200, 200, 200 - tam);
+  
+    //manipule o tamanho usando a direção
+    //faça o tam ir de 0 até 100
+    //e depois voltar até 0
 }
 
 ```

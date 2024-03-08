@@ -1,5 +1,13 @@
 # Repositório de atividades do P5
 
+[Códigos do FUNPROGRAMMING](./fun_programming.md)
+
+## Mini Projetos
+
+\________________________ | \_______________________________________________
+------------------------- | -----------------------
+![_](.thumbs/015.jpg) | [@015 Corações](base/015/Readme.md#corações)
+
 ## Conceitos Seleção
 
 \________________________ | \_______________________________________________
@@ -33,3 +41,5 @@
 ![_](.thumbs/017.jpg) | [@017 Campo](base/017/Readme.md#campo)
 ![_](.thumbs/018.jpg) | [@018 Próximo](base/018/Readme.md#próximo)
 ![_](.thumbs/019.jpg) | [@019 Swap](base/019/Readme.md#swap)
+![_](.thumbs/020.jpg) | [@020 Letras](base/020/Readme.md#letras)
+
