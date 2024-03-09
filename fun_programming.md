@@ -212,10 +212,10 @@ function draw() {
   ellipse(fast_circle_x,50, 50, 50);
   fast_circle_x = fast_circle_x + 5;
 
-  if(slow_circle_x > 400) {
+  if (slow_circle_x > 400) {
     slow_circle_x = 0;
   }
-  if(fast_circle_x > 400) {
+  if (fast_circle_x > 400) {
     fast_circle_x = 0;
   }
 }
