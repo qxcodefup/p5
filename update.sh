@@ -1,6 +1,6 @@
 #!/bin/bash
 
-indexer Readme.md -t
+indexer Readme.md
 mdpp Readme.md
 
 hooks="find base -maxdepth 2 -name Readme.md -print0 | sort -zn | xargs -0 -I '{}' dirname '{}'"
