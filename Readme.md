@@ -9,8 +9,8 @@
 
 ## Conceitos Seleção
 
-- [@bandeiras - treinando if else](base/bandeiras/Readme.md)
-- [@quadradinhos](base/quadradinhos/Readme.md)
+- [@bandeiras](base/bandeiras/Readme.md)
+- [Máquina de @escrever](base/escrever/Readme.md)
 - [@mosaico](base/mosaico/Readme.md)
 - [@redgreen](base/redgreen/Readme.md)
 - [@quadrantes](base/quadrantes/Readme.md)

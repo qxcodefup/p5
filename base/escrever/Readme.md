@@ -1,4 +1,4 @@
-# @quadradinhos
+# Máquina de @escrever
 
 [Video](https://user-images.githubusercontent.com/4747652/227679690-25f1661d-8f5f-41ca-8bdb-fd6b9737dd86.mp4)
 
