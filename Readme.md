@@ -1,19 +1,16 @@
 # Repositório de atividades do P5
 
-[Fun Programming with p5.js](./fun_programming.md)
+## Primeiros códigos
 
-## Mini Projetos
-
-- [@coracoes](base/coracoes/Readme.md)
-- [@digitacao](base/digitacao/Readme.md)
+- [@primeiros códigos com p5](base/primeiros/Readme.md)
 
 ## Conceitos Seleção
 
+- [@redgreen](base/redgreen/Readme.md)
 - [@bandeiras](base/bandeiras/Readme.md)
 - [Máquina de @escrever](base/escrever/Readme.md)
 - [@mosaico](base/mosaico/Readme.md)
-- [@redgreen](base/redgreen/Readme.md)
-- [@quadrantes](base/quadrantes/Readme.md)
+- [@prisioneiro](base/prisioneiro/Readme.md)
 - [@dvd](base/dvd/Readme.md)
 - [@ratinho](base/ratinho/Readme.md)
 - [@distancia](base/distancia/Readme.md)
@@ -28,6 +25,11 @@
 - [@escada](base/escada/Readme.md)
 - [@cortina](base/cortina/Readme.md)
 - [@tabuleiro](base/tabuleiro/Readme.md)
+
+## Mini Projetos
+
+- [@coracoes](base/coracoes/Readme.md)
+- [@digitacao](base/digitacao/Readme.md)
 
 ## Mouse e Teclado
 
